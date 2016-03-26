@@ -10,28 +10,6 @@ CKEDITOR.dialog.add('carouselDialog',function(editor){
 				id:'tab-basic',
 				label:'Basic Settings',
 				elements:[
-					/*{
-						type:'button',
-						id:"addbtn",
-						label:"add item",
-						title:'add title',
-						onClick:function(){
-							console.log(rootDialog);
-							rootDialog.setStyle( 'padding', '105px' );
-						}
-					},
-					{
-        		type:"text",
-        		id:"pic_1",
-        		label:"pic_1",
-        		validate: CKEDITOR.dialog.validate.notEmpty( "Explanation field cannot be empty." )
-        	},
-        	{
-        		type:"text",
-        		label:"pic_2",
-        		id:"pic_2",
-        		validate: CKEDITOR.dialog.validate.notEmpty( "Explanation field cannot be empty." )
-        	},*/
         	{
 						type:"html",
 						id:"list",
@@ -107,7 +85,6 @@ function makeCarousel(){
   		imgSrc.push(list[i].value);
   	}
   }
-	console.log(imgSrc);
 
 	var strHtml = "",
 			guid = createGuid(5),
@@ -122,7 +99,7 @@ function makeCarousel(){
 						'<div class="'+guid+'" style="transition:all .5s;-webkit-transition:all .5s;width:10000px;height:100%;font-size: 0px;">'+
 						strHtml+
 						'</div>'+scriptStr+'</div>';
-	console.log(strHtml);
+
 	return strHtml ;
 }
 //生成一个自定义长度的表示guid，由0-9，a-z组成
@@ -143,8 +120,4 @@ function createGuid(num){
 
 	return guidStr;
 }
-/*
-http://ww2.sinaimg.cn/mw690/00671w2Hjw1f20z5ctetdj31kw0sqwm3.jpg
-http://ww3.sinaimg.cn/mw690/00671w2Hjw1f20z5k67p4j31kw0vl127.jpg
-http://ww3.sinaimg.cn/mw690/00671w2Hjw1f20z7xbulmj31kw11xgwn.jpg
-*/
+
