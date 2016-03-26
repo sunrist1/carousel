@@ -1,4 +1,4 @@
-# ckeditor-carousel
+# carousel
 ckeditor carousel plugin 
 这是一个简单的ckeditor 轮播插件，代码质量奇差,劝你别用
 
