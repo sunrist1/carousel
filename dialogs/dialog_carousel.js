@@ -34,7 +34,6 @@ CKEDITOR.dialog.add('carouselDialog',function(editor){
 		},
 		onOk: function() {
 		    var dialog = this;
-		    console.log(dialog);
 		    var carousel = editor.document.createElement('img');
 
 		    //填充carousel
