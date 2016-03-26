@@ -1,6 +1,6 @@
 # ckeditor-carousel
 ckeditor carousel plugin 
-这是一个简单的ckeditor 轮播插件，代码质量奇差
+这是一个简单的ckeditor 轮播插件，代码质量奇差,劝你别用
 
 使用插件，
 1、下载文件放在ckeditor根目录下的plugins文件夹内，
